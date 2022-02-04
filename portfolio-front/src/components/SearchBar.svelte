@@ -1,5 +1,13 @@
+<script>
+  export let value = ''
+</script>
+
 <div class="shadow" flex>
-  <input class="w-full rounded p-2" type="text" placeholder="Search..." />
+  <input
+    bind:value
+    class="w-full rounded p-2"
+    type="text"
+    placeholder="Search..." />
   <button
     class="bg-white w-auto flex justify-end items-center text-blue-500 p-2
     hover:text-blue-400">
